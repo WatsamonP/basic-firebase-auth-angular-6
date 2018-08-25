@@ -1,0 +1,31 @@
+<div class="content">
+
+  <h4>SIGN IN</h4><br><br>
+
+  <form autocomplete="off" novalidate class="form" [formGroup]="form">
+    <div class="input-group" style="padding-bottom: 20px">
+      <div class="input-group-prepend">
+        <div class="input-group-text" id="btnGroupAddon" style="width:120px">
+          EMAIL
+        </div>
+      </div>
+      <input type="text" formControlName="email" class="form-control" 
+        placeholder="Email" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+    
+    <div class="input-group" style="padding-bottom: 20px">
+      <div class="input-group-prepend">
+        <div class="input-group-text" id="btnGroupAddon" style="width:120px">
+          PASSWORD
+        </div>
+      </div>
+      <input type="password" formControlName="password" class="form-control" 
+        placeholder="Password" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+
+    <hr>
+      
+    <button type="button" class="btn btn-primary" (click)="onClickSignIn()">SIGN IN</button>
+ 
+    </form>
+  </div>
