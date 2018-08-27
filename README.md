@@ -14,5 +14,4 @@ $ npm install angularfire2
 
 $ npm install firebase
 
-// fix rxjs error
 $ npm i rxjs@6 rxjs-compat@6 promise-polyfill --save
