@@ -2,16 +2,28 @@
 - angular 6 work!
 - need to config firebase environment 
 
-# Material + Toturial
-$ https://drive.google.com/open?id=11ME3X4f6Q3yB-0ua4MvyDsCKpwdqDphj
+# Start
+  
+  `$ npm install`
+ > หรือ ถ้าสร้าง Project ใหม่ <br />
+  `$ npm install -g @angular/cli`
+  
+  `$ npm install bootstrap`
+  
+  `$ npm install angularfire2`
 
-# Node
-$ npm install -g @angular/cli
+  `$ npm install firebase`
 
-$ npm install bootstrap
+> ถ้า Observable Error <br />
+  `$ npm i rxjs@6 rxjs-compat@6 promise-polyfill --save`
 
-$ npm install angularfire2
+# Material
+- https://goo.gl/jqiFrp
+- ใช้ประกอบการเรียนวิชา 523496 COMPUTER ENGINEERING PROJECT II
 
-$ npm install firebase
-
-$ npm i rxjs@6 rxjs-compat@6 promise-polyfill --save
+> **Note.**
+> - basic-firebase-auth-angular-6-master.zip // ไฟล์ Project
+> - Tutorial-FirebaseAuthenticationwithAngular.pdf // วิธีทำ
+> - shared.zip  // ไฟล์ Service และGuard
+> - sign-up_HTML.zip // HTML หน้า sign up
+> - present_27-08-2018.pdf // ไฟล์บรรยาย
